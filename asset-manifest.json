@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kamanlimbu/static/css/main.8fb50ef8.css",
+    "main.js": "/kamanlimbu/static/js/main.f96cbddc.js",
+    "index.html": "/kamanlimbu/index.html",
+    "main.8fb50ef8.css.map": "/kamanlimbu/static/css/main.8fb50ef8.css.map",
+    "main.f96cbddc.js.map": "/kamanlimbu/static/js/main.f96cbddc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fb50ef8.css",
+    "static/js/main.f96cbddc.js"
+  ]
+}
