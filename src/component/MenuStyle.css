@@ -1,0 +1,152 @@
+
+html{
+    scroll-behavior: smooth;
+}
+.nav-menu{
+    width: 20%;
+    height: 100vh;
+    background-color: #242526;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav-links{
+    position: fixed;
+    width: 20%;
+}
+
+.nav-links a{
+    
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-left: 7rem;
+    /* text-align: left; */
+
+    font-size: 1.2rem;
+    font-weight: 500;
+    box-shadow: inset 5 0 0 0 white;
+    
+    /* margin: 0 7rem;
+    padding: 0 .25rem;  */
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out; 
+    
+}
+
+.welcome{
+    color: white;
+    text-align: center;
+    margin: 2rem;
+}
+
+
+
+.nav-links a:hover {
+
+   
+    /* box-shadow: inset 150px 0 0 0 black; */
+    color: gray;
+    /* border-radius: 3px; */
+
+}
+
+
+
+
+.profile{
+    max-width: 80%;
+    margin: 1rem 2rem 2rem 1.2rem ;
+    height: auto;
+    border-radius: 50rem;
+    border: 3px solid white;
+    /* margin-top: 9rem; */
+}
+
+#resume{
+    margin: 0 0 0 20%;
+}
+
+#first{
+    height: 100vh;
+    padding-left: 5rem;
+    padding-top: 5rem;
+    padding-right: 5rem;
+    text-align: justify;
+    /* background-color: black; */
+}
+
+#second{
+    margin: 10rem;
+    text-align: justify;
+}
+
+#third{
+    margin: 10rem;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1040px){
+
+    .nav-menu{
+        width: 100%;
+        height: 10vh;
+    }
+
+    .welcome{
+        color: white;
+        text-align: left;
+        margin: 1rem 0 0 3rem;
+    }
+
+    .profile{
+        display: none;
+    }
+
+    .nav-links a{
+    
+        display: block;
+        text-decoration: none;
+        color: white;
+        padding-left: 5rem;
+        /* text-align: left; */
+    
+        font-size: 1.2rem;
+        font-weight: 500;
+        box-shadow: inset 5 0 0 0 white;
+        
+        /* margin: 0 7rem;
+        padding: 0 .25rem;  */
+        transition: color .3s ease-in-out, box-shadow .3s ease-in-out; 
+        
+    }
+
+}
+
+@media screen and (max-width: 656px){
+
+    .nav-menu{
+        width: 30%;
+    }
+
+    
+
+    .nav-links a{
+    
+        display: block;
+        text-decoration: none;
+        color: white;
+        padding-left: 5rem;
+        /* text-align: left; */
+    
+        font-size: 1.2rem;
+        font-weight: 500;
+        box-shadow: inset 5 0 0 0 white;
+        
+        /* margin: 0 7rem;
+        padding: 0 .25rem;  */
+        transition: color .3s ease-in-out, box-shadow .3s ease-in-out; 
+        
+    }
+
+}
