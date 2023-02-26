@@ -28,11 +28,11 @@ const About = () => {
 
       <AiFillLinkedin className='social-icons' />
 
-      <Link to=""><FaGithubAlt className='social-icons' /></Link>
+      <Link to="https://github.com/KamanHang"><FaGithubAlt className='social-icons' /></Link>
 
       <Link to="https://www.instagram.com/kamannlimbuu/"><AiFillInstagram className='social-icons' /></Link>
 
-      <AiFillFacebook className='social-icons' />
+      <Link to="https://www.facebook.com/kaman.hangshrong"> <AiFillFacebook className='social-icons' /> </Link>
 
       <div className='details'>
         <div className='icon-img'>
