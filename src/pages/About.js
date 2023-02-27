@@ -3,7 +3,6 @@ import "./About.css"
 // import {FcHome} from 'react-icons/fc'
 import { Link } from 'react-router-dom'
 import {FaHome, FaGithubAlt} from 'react-icons/fa'
-import {RiInstagramFill} from 'react-icons/ri'
 import {MdEmail} from 'react-icons/md'
 import { AiFillInstagram, AiFillLinkedin, AiFillFacebook } from 'react-icons/ai'
 
