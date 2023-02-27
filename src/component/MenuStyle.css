@@ -77,8 +77,16 @@ html{
 }
 
 #second{
-    margin: 10rem;
+
+    height: 100vh;
+    padding-left: 5rem;
+    padding-top: 5rem;
+    padding-right: 5rem;
     text-align: justify;
+    /* background-color: black; */
+
+    /* /* margin: 10rem;
+    text-align: justify;/* */
 }
 
 #third{
