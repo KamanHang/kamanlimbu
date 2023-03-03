@@ -1,10 +1,41 @@
 import React from 'react'
+import {AiFillHtml5} from 'react-icons/ai'
+import {SiPython} from 'react-icons/si'
+import {DiReact, DiNodejs, DiJavascript} from 'react-icons/di'
+import {FaCss3Alt} from 'react-icons/fa'
+
+
 
 const Skills = () => {
   return (
-    <div>
-        <p>Nepal is a developing country with a largely agrarian economy, but it has a rapidly growing tourism industry. The country's main economic activities include agriculture, tourism, and handicrafts. Agriculture is the main source of income for the majority of Nepali people, and it contributes about 37% of the country's gross domestic product (GDP). Nepal is famous for its natural beauty, including its mountains, lakes, and forests, and it is a popular destination for trekkers, mountaineers, and adventure travelers. The tourism industry has been growing rapidly in recent years and is an important source of foreign currency for the country. However, the country faces various economic challenges, including poverty, unemployment, and political instability, which limit its ability to achieve sustainable economic growth.Nepal is a developing country with a largely agrarian economy, but it has a rapidly growing tourism industry. The country's main economic activities include agriculture, tourism, and handicrafts. Agriculture is the main source of income for the majority of Nepali people, and it contributes about 37% of the country's gross domestic product (GDP). Nepal is famous for its natural beauty, including its mountains, lakes, and forests, and it is a popular destination for trekkers, mountaineers, and adventure travelers. The tourism industry has been growing rapidly in recent years and is an important source of foreign currency for the country. However, the country faces various economic challenges, including poverty, unemployment, and political instability, which limit its ability to achieve sustainable economic growth.Nepal is a developing country with a largely agrarian economy, but it has a rapidly growing tourism industry. The country's main economic activities include agriculture, tourism, and handicrafts. Agriculture is the main source of income for the majority of Nepali people, and it contributes about 37% of the country's gross domestic product (GDP). Nepal is famous for its natural beauty, including its mountains, lakes, and forests, and it is a popular destination for trekkers, mountaineers, and adventure travelers. The tourism industry has been growing rapidly in recent years and is an important source of foreign currency for the country. However, the country faces various economic challenges, including poverty, unemployment, and political instability, which limit its ability to achieve sustainable economic growth.</p>
-    </div>
+   <>
+      <div className='skill-head'>
+
+        <h1 className='head'>Skills</h1>
+
+      </div>
+
+      <div className="skills">
+
+        <AiFillHtml5 className='skills-icons' />
+        <FaCss3Alt className='skills-icons' />
+        <DiJavascript className='skills-icons' />
+        <DiReact className='skills-icons' />
+        <DiNodejs className='skills-icons' />
+        <SiPython className='skills-icons' />
+        
+        
+        
+        
+          
+
+
+      
+      </div>
+
+
+      
+   </>
   )
 }
 

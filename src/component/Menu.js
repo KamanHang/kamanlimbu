@@ -31,10 +31,10 @@ const Menu = () => {
         <About />
       </div>
       <div id='second'>
-        <Project />
+        <Skills />
       </div>
       <div id='third'>
-        <Skills />
+        <Project />
       </div>
     </div>
 

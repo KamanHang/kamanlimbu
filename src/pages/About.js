@@ -1,5 +1,5 @@
 import React from 'react'
-import "./About.css"
+import "./WholePage.css"
 // import {FcHome} from 'react-icons/fc'
 import { Link } from 'react-router-dom'
 import {FaHome, FaGithubAlt} from 'react-icons/fa'
