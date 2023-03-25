@@ -1,6 +1,6 @@
 import React from 'react'
 import {AiFillHtml5} from 'react-icons/ai'
-import {SiPython} from 'react-icons/si'
+// import {SiPython} from 'react-icons/si'
 import {DiReact, DiNodejs, DiJavascript} from 'react-icons/di'
 import {FaCss3Alt} from 'react-icons/fa'
 import {RiFlutterFill} from 'react-icons/ri'
