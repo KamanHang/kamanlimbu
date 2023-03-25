@@ -3,7 +3,8 @@ import './MenuStyle.css'
 import About from '../pages/About'
 import Project from '../pages/Project'
 import Skills from '../pages/Skills'
-import Experience from '../pages/Experience'
+import Certificates from '../pages/Certificates'
+// import Experience from '../pages/Experience'
 // import { Link } from 'react-router-dom'
 
 const Menu = () => {
@@ -22,8 +23,8 @@ const Menu = () => {
         <Link to="#second">Projects</Link>
         <Link to="#third">About</Link> */}
         <a href='#resume'>About</a>
-        <a href='#second'>Experiences</a>
-        <a href='#third'>My Projects</a>
+        <a href='#second'>My Projects</a>
+        <a href='#third'>Certificates</a>
         <a href='#fourth'>Skills</a>
       </div>
     </div>
@@ -33,14 +34,15 @@ const Menu = () => {
         <About />
       </div>
       <div id='second'>
-        <Experience />
+        <Project />
       </div>
       <div id='third'>
-        <Project />
+        <Certificates />
       </div>
       <div id='fourth'>
         <Skills />
       </div>
+      
     </div>
 
     </>
