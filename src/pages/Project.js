@@ -1,11 +1,30 @@
 import React from 'react'
+import './WholePage.css'
+import Exp from './Exp'
+import { FaGithubAlt} from 'react-icons/fa'
 
 const Project = () => {
   return (
-    <div>
-      <p>  Nepal is a developing country with a largely agrarian economy, but it has a rapidly growing tourism industry. The country's main economic activities include agriculture, tourism, and handicrafts. Agriculture is the main source of income for the majority of Nepali people, and it contributes about 37% of the country's gross domestic product (GDP). Nepal is famous for its natural beauty, including its mountains, lakes, and forests, and it is a popular destination for trekkers, mountaineers, and adventure travelers. The tourism industry has been growing rapidly in recent years and is an important source of foreign currency for the country. However, the country faces various economic challenges, including poverty, unemployment, and political instability, which limit its ability to achieve sustainable economic growth.Nepal is a developing country with a largely agrarian economy, but it has a rapidly growing tourism industry. The country's main economic activities include agriculture, tourism, and handicrafts. Agriculture is the main source of income for the majority of Nepali people, and it contributes about 37% of the country's gross domestic product (GDP). Nepal is famous for its natural beauty, including its mountains, lakes, and forests, and it is a popular destination for trekkers, mountaineers, and adventure travelers. The tourism industry has been growing rapidly in recent years and is an important source of foreign currency for the country. However, the country faces various economic challenges, including poverty, unemployment, and political instability, which limit its ability to achieve sustainable economic growth.Nepal is a developing country with a largely agrarian economy, but it has a rapidly growing tourism industry. The country's main economic activities include agriculture, tourism, and handicrafts. Agriculture is the main source of income for the majority of Nepali people, and it contributes about 37% of the country's gross domestic product (GDP). Nepal is famous for its natural beauty, including its mountains, lakes, and forests, and it is a popular destination for trekkers, mountaineers, and adventure travelers. The tourism industry has been growing rapidly in recent years and is an important source of foreign currency for the country. However, the country faces various economic challenges, including poverty, unemployment, and political instability, which limit its ability to achieve sustainable economic growth.Nepal has a rich cultural heritage, with a diverse mix of ethnic and linguistic groups. The country has a long history, dating back to the 7th century when the Kirati dynasty ruled the kingdom. The Shah dynasty later ruled Nepal for over 250 years, and the country became a republic in 2008. Hinduism is the predominant religion in Nepal, followed by Buddhism, Islam, and Christianity. Nepal is known for its traditional festivals and cultural events, such as Dashain, Tihar, and Holi, which are celebrated with great fervor throughout the country.</p>
+    <>
+        <div className='skill-head'>
 
-    </div>
+             <h1 className='exp-head'>Projects</h1>
+
+        </div>
+        <div className='experience'>
+
+          <Exp
+            name = "College Bus Tracking App"
+            company = "Itahari International College"
+            description = "College Bus Tracking App is a mobile application developed using Flutter and Node JS which focuses on solving issues faced by bus student of IIC by creating a platform where student can ergonomically view their respective college bus location so that they can be punctual for their daily classes."
+            tools= "Tools used: Flutter and Node JS"
+            link= {<FaGithubAlt  />}
+          
+          />
+
+        </div>
+        
+    </>
   )
 }
 
