@@ -17,7 +17,7 @@ const About = () => {
     
 
     <div className='quotes'>
-       I am Kaman Limbu. An individual with an inquisitive mind thriving to create a change with knowledge and experience gained.
+       A Web and Mobile Application Developer with an inquisitive mind thriving to create a change with knowledge and experience gained.
        I welcome everyone on my personal blog, where I showcase the outcomes of my enthusiasm.
     </div>
 

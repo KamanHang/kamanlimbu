@@ -22,6 +22,7 @@ html{
     text-decoration: none;
     color: white;
     padding-left: 7rem;
+    margin: 1rem 0 1rem 0;
     /* text-align: left; */
 
     font-size: 1.2rem;
@@ -92,6 +93,16 @@ html{
 #third{
     margin: 10rem;
     text-align: justify;
+}
+
+#fourth{
+
+    height: 100vh;
+    padding-left: 5rem;
+    padding-top: 5rem;
+    padding-right: 5rem;
+    text-align: justify;
+
 }
 
 @media screen and (max-width: 1040px){
