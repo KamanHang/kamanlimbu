@@ -41,6 +41,10 @@ html{
     margin: 2rem;
 }
 
+.hamburger{
+    display: none;
+}
+
 
 
 .nav-links a:hover {
@@ -125,6 +129,10 @@ html{
         display: none;
     }
 
+    #resume{
+        margin: 0 0 0 0;
+    }
+
     .nav-links a{
     
         display: block;
@@ -148,14 +156,29 @@ html{
 @media screen and (max-width: 656px){
 
     .nav-menu{
-        width: 30%;
+        width: 100%;
     }
 
-    
+    .welcome{
+        display: flex;
+        justify-content: space-between;
+    }
+    .welcome h1{
+
+        margin-left: -2rem;
+        /* color: #242526; */
+        
+        
+    }
+
+    #resume{
+        margin: 0 0 0 0;
+    }
+
 
     .nav-links a{
     
-        display: block;
+        display: none;
         text-decoration: none;
         color: white;
         padding-left: 5rem;
@@ -170,5 +193,23 @@ html{
         transition: color .3s ease-in-out, box-shadow .3s ease-in-out; 
         
     }
+
+    .hamburger{
+        /* color: #242526; */
+        display: initial;
+        margin-top: 0.7rem;
+        margin-right: 1.2rem;
+        font-size:larger;
+    }
+
+    #first{
+        height: 100vh;
+        padding: 5rem 0 0 0.5rem ;
+        padding-top: 5rem;
+        padding-right: 0.5rem;
+        text-align: justify;
+        /* background-color: black; */
+    }
+    
 
 }
