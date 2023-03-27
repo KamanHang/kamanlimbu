@@ -147,13 +147,17 @@
     
     .details-min{
         display: flex;
-        margin-left: 2rem;
+        margin-left: 1.5rem;
+    }
+
+    .info{
+        font-size: 0.9rem;
     }
 
     .social{
         display: flex;
         /* margin-top: 1rem; */
-        padding-left: 5rem;
+        padding-left: 1rem;
     }
 
     .quotes{
@@ -178,7 +182,7 @@
 
     .profile-home{
         max-width: 50%;
-        margin: 1rem 0rem 1rem 7rem ;
+        margin: 1rem 0rem 1rem 6rem ;
         height: auto;
         border-radius: 50rem;
         border: 3px solid white;

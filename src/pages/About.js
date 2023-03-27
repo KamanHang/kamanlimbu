@@ -40,7 +40,7 @@ const About = () => {
     <div className='quotes'>
       <p>
        A fresh Web and Mobile Application Developer with an inquisitive mind thriving to create a change with knowledge and experience gained. <br></br><br></br>
-       I, welcome everyone on my personal blog, where I showcase the outcomes of my enthusiasm.
+       I, welcome everyone on my personal blog,where I showcase the outcomes of my enthusiasm.
        </p>
     </div>
 
