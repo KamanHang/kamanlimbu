@@ -33,3 +33,39 @@ a{
     justify-content:center;
     
 }
+
+@media screen and (max-width: 656px){
+
+    .project-name{
+        font-size: 1rem;
+    }
+
+    .company-name{
+        color: #898d90;
+        margin: 0.5rem 0 0.5rem 0;
+        font-size: 0.8rem;
+    }
+
+    .card{
+        box-shadow: 10px 10px 8px #c5bcbc;
+        padding: 1rem;
+        border-radius: 20px;
+        border-style: solid;
+        border-width: 0.1px;
+        border-color: #f0eaea;
+        /* border-color: black; */
+    }
+
+    .project-link{
+        color: #57595a;
+        margin: 1rem 0 0 0;
+        font-size: 2rem;
+        /* margin-left: 1rem; */
+    }
+
+    a{
+        display: flex;
+        justify-content:center;
+        
+    }
+}

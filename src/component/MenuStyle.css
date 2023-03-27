@@ -210,6 +210,19 @@ html{
         text-align: justify;
         /* background-color: black; */
     }
+
+    #second{
+
+        height: 100vh;
+        padding-left: 3rem;
+        padding-top: 5rem;
+        padding-right: 3rem;
+        text-align: justify;
+        /* background-color: black; */
+    
+        /* /* margin: 10rem;
+        text-align: justify;/* */
+    }
     
 
 }
