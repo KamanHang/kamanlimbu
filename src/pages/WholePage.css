@@ -20,8 +20,12 @@
     padding: 5rem 0 2rem 0;
     text-align: left;
     font-weight: 500;
-
 }
+
+.profile-img-home{
+    display: none;
+}
+
 
 .exp-head{
 
@@ -143,11 +147,13 @@
     
     .details-min{
         display: flex;
+        margin-left: 2rem;
     }
 
     .social{
         display: flex;
-        margin-top: 5rem;
+        /* margin-top: 1rem; */
+        padding-left: 5rem;
     }
 
     .quotes{
@@ -158,12 +164,28 @@
         font-size: 1.2rem;
         opacity: 0.8;
         text-align: justify;
+        padding: 0 2rem 0 2rem;
     }
 
     .quotes p{
         line-height: 20pt;
     }
 
+    
+    .profile-img-home{
+        display: initial;
+    }
+
+    .profile-home{
+        max-width: 50%;
+        margin: 1rem 0rem 1rem 7rem ;
+        height: auto;
+        border-radius: 50rem;
+        border: 3px solid white;
+        /* margin-top: 9rem; */
+    }
+
+    
  
 
     

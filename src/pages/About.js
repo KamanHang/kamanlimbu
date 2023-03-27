@@ -9,10 +9,15 @@ import { AiFillInstagram, AiFillLinkedin, AiFillFacebook } from 'react-icons/ai'
 const About = () => {
   return (
     <>
+
     <div className='my-name'>
       {/* <h1 className='learning-quote'><i>"Learning Never Exhausts the Mind." Leonardo da Vinci (1452-1519)</i></h1> */}
       <h1 className='name'>Hello Everyone!</h1>
-      <h1 className='name-one'>Kaman Limbu</h1>
+      {/* <h1 className='name-one'>Kaman Limbu</h1>s */}
+      <div className='profile-img-home'>
+        <img className='profile-home' alt='profilepicture' src='https://github.com/Kamanhang.png' />
+      </div>
+      
       <div className='details-min'>
         <div className='icon-img'>
           <FaHome className='icons' />
@@ -27,8 +32,8 @@ const About = () => {
           Kamanhangshrong@gmail.com
         </div>
       </div>
+      
     </div>
-    
 
     
 
