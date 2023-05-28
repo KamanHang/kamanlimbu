@@ -6,11 +6,20 @@
 .card{
     box-shadow: 10px 10px 8px #c5bcbc;
     padding: 1rem;
+    margin-top: 2rem;
     border-radius: 20px;
     border-style: solid;
     border-width: 0.1px;
     border-color: #f0eaea;
     /* border-color: black; */
+
+    transition: transform 250ms;
+}
+
+.card:hover {
+
+    transform: translate(10px);
+
 }
 
 .exp-head{
@@ -25,7 +34,7 @@
     color: #57595a;
     margin: 1rem 0 0 0;
     font-size: 2rem;
-    margin-left: 5rem;
+    margin-left: 0rem;
 }
 
 a{
@@ -51,7 +60,7 @@ a{
         padding: 1rem;
         border-radius: 20px;
         border-style: solid;
-        border-width: 0.1px;
+        border-width: 1px;
         border-color: #f0eaea;
         /* border-color: black; */
     }
